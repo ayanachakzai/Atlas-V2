@@ -763,11 +763,6 @@ function MusicMode() {
 // ── COMPARE MODE ─────────────────────────────────────────────────────────────
 const COMPARE_COUNTRIES = ["UK", "USA", "India", "China", "Turkey"];
 
-const RANDOM_TOPICS = [
-  "food", "family values", "music", "hospitality", "education",
-  "religion", "architecture", "women's roles", "festivals", "history",
-  "language", "clothing", "art", "sport", "humour",
-];
 
 function CompareMode() {
   const [compareResult, setCompareResult] = useState<string | null>(null);
@@ -781,9 +776,8 @@ function CompareMode() {
     setCompareLoading(true);
     setCompareResult(null);
     setCompareError(null);
-    const topic = RANDOM_TOPICS[Math.floor(Math.random() * RANDOM_TOPICS.length)];
     try {
-      const data = await callAtlas(`Compare Pakistan with ${country} on the topic of ${topic}`);
+      const data = await callAtlas(`Compare Pakistan with ${country}`);
       setCompareResult(clean(data.reply));
     } catch (e: any) {
       setCompareError(e.message ?? "Unknown error");
