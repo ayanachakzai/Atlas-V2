@@ -89,7 +89,7 @@ function Nav() {
     }}>
       <a href="/" style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer", textDecoration: "none" }}>
         <span style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "'Poppins', sans-serif",
           fontSize: "1.2rem", fontWeight: 400,
           letterSpacing: "0.06em", color: "#C4D8EE",
         }}>
@@ -160,7 +160,7 @@ export default function AboutPage() {
           }}
         >
           <span style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 10, letterSpacing: "0.3em",
             textTransform: "uppercase", color: "#E09020",
           }}>
@@ -208,20 +208,20 @@ export default function AboutPage() {
           >
             <span style={{
               display: "block",
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "'Poppins', sans-serif",
               fontSize: 10, letterSpacing: "0.3em",
               textTransform: "uppercase", color: "#E09020",
               marginBottom: 24,
             }}>
               The Creator
             </span>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "#7A96B8", lineHeight: 1.9, marginBottom: 20 }}>
+            <p style={{ fontFamily: "'Poppins', sans-serif", fontSize: 15, color: "#7A96B8", lineHeight: 1.9, marginBottom: 20 }}>
               My name is Muhammad Ayan Achakzai. I am a filmmaker and cultural storyteller from Quetta, Balochistan — now studying MSc Applied Machine Learning for Creatives at UAL&apos;s Creative Computing Institute in London.
             </p>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "#7A96B8", lineHeight: 1.9, marginBottom: 20 }}>
+            <p style={{ fontFamily: "'Poppins', sans-serif", fontSize: 15, color: "#7A96B8", lineHeight: 1.9, marginBottom: 20 }}>
               Atlas Speaks began as a university project. But somewhere between writing the code and feeding it 205 cultural facts about my home, it became something else. A conversation I had always wanted to have. A way to say: Balochistan is not a conflict. It is not a statistic. It is a sunrise over Koh-e-Murdar. It is poetry in Brahui. It is hospitality that does not ask your name before feeding you.
             </p>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "#7A96B8", lineHeight: 1.9, margin: 0 }}>
+            <p style={{ fontFamily: "'Poppins', sans-serif", fontSize: 15, color: "#7A96B8", lineHeight: 1.9, margin: 0 }}>
               I built this for the curious. For the ones who type a question they were afraid to ask out loud. For anyone who wants to understand — not just read about — a place.
             </p>
           </motion.div>
@@ -273,7 +273,7 @@ export default function AboutPage() {
         >
           <span style={{
             display: "block",
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 10, letterSpacing: "0.3em",
             textTransform: "uppercase", color: "#E09020",
             marginBottom: 20,
@@ -281,7 +281,7 @@ export default function AboutPage() {
             The Mission
           </span>
           <h2 style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: "clamp(2rem, 3.5vw, 3rem)",
             fontWeight: 300, color: "#C4D8EE",
             lineHeight: 1.2, marginBottom: 24,
@@ -289,7 +289,7 @@ export default function AboutPage() {
             To represent Balochistan as it actually is.
           </h2>
           <p style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 15, color: "#7A96B8",
             lineHeight: 1.9, margin: 0,
           }}>
@@ -312,7 +312,7 @@ export default function AboutPage() {
             background: "rgba(200,122,16,0.1)",
             border: "1px solid rgba(200,122,16,0.5)",
             color: "#C4D8EE",
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 11, fontWeight: 500,
             letterSpacing: "0.2em", textTransform: "uppercase",
             cursor: "pointer", textDecoration: "none",
@@ -322,7 +322,7 @@ export default function AboutPage() {
           </a>
           <div style={{ marginTop: 20 }}>
             <a href="/" style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "'Poppins', sans-serif",
               fontSize: 12, color: "#48607C",
               textDecoration: "none",
             }}>
@@ -343,7 +343,7 @@ export default function AboutPage() {
         flexWrap: "wrap", gap: 16,
       }}>
         <div style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "'Poppins', sans-serif",
           fontSize: "1.1rem", fontWeight: 300,
           letterSpacing: "0.08em", color: "#C4D8EE",
         }}>

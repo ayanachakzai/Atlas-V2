@@ -193,7 +193,7 @@ function HeroGlobe() {
         octx.clearRect(0, 0, W, H);
         const cx = W / 2, cy = H / 2, Rx = W * 0.44, Ry = Rx * 0.18;
         const chars = EQTEXT.split(""), step = (Math.PI * 2) / chars.length;
-        octx.font = "400 11px 'DM Sans',sans-serif";
+        octx.font = "400 11px 'Poppins',sans-serif";
         octx.textAlign = "center"; octx.textBaseline = "middle";
         chars.forEach((ch, i) => {
           const a = eqAngle + i * step, depth = Math.sin(a);
@@ -372,7 +372,7 @@ function MountainSection() {
           letterSpacing: "0.04em",
           zIndex: 20,
         }}>
-          <span style={{ display: "block", fontSize: 10, letterSpacing: "0.3em", textTransform: "uppercase", color: "#E09020", marginBottom: 8, fontFamily: "'DM Sans', sans-serif", fontStyle: "normal" }}>
+          <span style={{ display: "block", fontSize: 10, letterSpacing: "0.3em", textTransform: "uppercase", color: "#E09020", marginBottom: 8, fontFamily: "'Poppins', sans-serif", fontStyle: "normal" }}>
             HEART OF THE REGION
           </span>
           Balochistan
@@ -477,12 +477,12 @@ function EmbroiderySection() {
         <span style={{
           display: "block", fontSize: 10, letterSpacing: "0.3em",
           textTransform: "uppercase", color: "#E09020",
-          fontFamily: "'DM Sans', sans-serif", marginBottom: 10,
+          fontFamily: "'Poppins', sans-serif", marginBottom: 10,
         }}>
           Traditional Art
         </span>
         <h2 style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "'Poppins', sans-serif",
           fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 300,
           background: "linear-gradient(135deg, #C87A10, #F0B040, #C87A10)",
           WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
@@ -529,12 +529,12 @@ function FeatureCard({ num, title, desc }: { num: string; title: string; desc: s
         background: "linear-gradient(90deg,transparent,rgba(240,176,64,0.25),transparent)",
       }} />
       <div style={{
-        fontFamily: "'DM Sans', sans-serif",
+        fontFamily: "'Poppins', sans-serif",
         fontSize: "3rem", fontWeight: 300, color: "#C87A10",
         opacity: 0.3, lineHeight: 1, marginBottom: 20,
       }}>{num}</div>
       <h3 style={{
-        fontFamily: "'DM Sans', sans-serif",
+        fontFamily: "'Poppins', sans-serif",
         fontSize: "1.55rem", fontWeight: 400,
         color: "#C4D8EE", marginBottom: 14, lineHeight: 1.2,
       }}>{title}</h3>
@@ -571,7 +571,7 @@ function Nav() {
     }}>
       <a href="/" style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer", textDecoration: "none" }}>
         <span style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "'Poppins', sans-serif",
           fontSize: "1.2rem", fontWeight: 400,
           letterSpacing: "0.06em", color: "#C4D8EE",
         }}>
@@ -628,7 +628,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.7 }}
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 10, letterSpacing: "0.3em", textTransform: "uppercase",
             color: "#E09020", marginBottom: 28,
           }}
@@ -669,7 +669,7 @@ export default function Home() {
         </motion.div>
 
         <h1 style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "'Poppins', sans-serif",
           lineHeight: 0.88, textAlign: "center", marginBottom: 24,
         }}>
           <motion.span
@@ -724,7 +724,7 @@ export default function Home() {
             background: "rgba(200,122,16,0.1)",
             border: "1px solid rgba(200,122,16,0.5)",
             color: "#C4D8EE",
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 11, fontWeight: 500,
             letterSpacing: "0.2em", textTransform: "uppercase",
             cursor: "pointer", textDecoration: "none",
@@ -737,7 +737,7 @@ export default function Home() {
             background: "transparent",
             border: "1px solid rgba(255,255,255,0.12)",
             color: "#7A96B8",
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: 11, fontWeight: 500,
             letterSpacing: "0.2em", textTransform: "uppercase",
             cursor: "pointer", textDecoration: "none",
@@ -778,7 +778,7 @@ export default function Home() {
             Cultural Intelligence
           </span>
           <h2 style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: "clamp(2.2rem,4vw,3.2rem)", fontWeight: 300,
             color: "#C4D8EE", lineHeight: 1.1,
           }}>
@@ -856,7 +856,7 @@ export default function Home() {
             Built in Quetta. Built for the world.
           </span>
           <h2 style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Poppins', sans-serif",
             fontSize: "clamp(1.8rem,3vw,2.5rem)", fontWeight: 300,
             lineHeight: 1.15, color: "#C4D8EE", marginBottom: 22,
           }}>
@@ -908,7 +908,7 @@ export default function Home() {
             }}
           >
             <div style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "'Poppins', sans-serif",
               fontSize: "3rem", fontWeight: 300,
               color: "#E09020", lineHeight: 1, marginBottom: 10,
             }}>{n}</div>
@@ -931,7 +931,7 @@ export default function Home() {
         flexWrap: "wrap", gap: 16,
       }}>
         <div style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "'Poppins', sans-serif",
           fontSize: "1.1rem", fontWeight: 300,
           letterSpacing: "0.08em", color: "#C4D8EE",
         }}>
