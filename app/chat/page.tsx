@@ -1115,7 +1115,7 @@ export default function ChatPage() {
           Atlas <em style={{ fontStyle: "normal", color: "#E09020" }}>Speaks</em>
         </div>
         <div style={{ fontSize: 12, color: "#48607C" }}>
-          Made in Quetta · Built for the world 🇵🇰
+          Built for the world 🇵🇰
         </div>
       </footer>
 

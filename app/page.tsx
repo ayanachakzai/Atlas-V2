@@ -853,7 +853,7 @@ export default function Home() {
             display: "block", fontSize: 10, letterSpacing: "0.28em",
             textTransform: "uppercase", color: "#E09020", marginBottom: 18,
           }}>
-            Built in Quetta. Built for the world.
+            Built for the world.
           </span>
           <h2 style={{
             fontFamily: "'Poppins', sans-serif",
@@ -938,7 +938,7 @@ export default function Home() {
           Atlas <em style={{ fontStyle: "normal", color: "#E09020" }}>Speaks</em>
         </div>
         <div style={{ fontSize: 12, color: "#48607C" }}>
-          Made in Quetta · Built for the world 🇵🇰
+          Built for the world 🇵🇰
         </div>
       </footer>
 
